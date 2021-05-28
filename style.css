@@ -677,10 +677,14 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
-blockquote {
+blockquote p:last-child {
+  font-weight: bold;
+}
+
+blockquote p{
   font-style: italic;
 }
 
@@ -708,16 +712,20 @@ blockquote {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
+h2, blockquote {
+    font-size: 32px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+blockquote {
+  font-weight: bold;
 }
 
 .med-width-whitespace {
@@ -739,9 +747,9 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
+/* .white {
     color: #FFFFFF!important;
-}
+} */
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -757,8 +765,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(25, 23, 19, 0.7);
+    background-color: rgba(25, 23, 19, 99%);
     padding: 40px 40px 40px 40px;
+    border-radius: 7px;
 }
 
 .bold-link {
@@ -788,14 +797,22 @@ h4 {
     background: #c27956!important;
     color: #000000!important;
 }
-
 .ltc-white {
-    color: #FFFFFF!important;
+  color: #F3976C!important;
+  text-decoration: none!important;
+}
+.ltc-white:hover {
+  color: #c27956!important;
+  font-size: 1.02em;
+}
+#footer p, .social .fa {
+    color: rgba(0, 0, 0, 0.9)!important;
+}
+#bloc-3-what-i-do p:last-child{
+  color: white!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
-}
+
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
