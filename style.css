@@ -18,9 +18,9 @@ a:hover{
   cursor: pointer;
 }
 a:focus, button:focus{
-  border: 4px solid #cccc;
-  font-size: 1.1em;
-  size: 1.1em;
+  border: 4px solid #cccc!important;
+  font-size: 1.1em!important;
+  size: 1.1em!important;
 }
 
 #page-loading-blocs-notifaction {
@@ -721,7 +721,7 @@ blockquote p{
   justify-content: center;
 }
 a.social:hover, a.social:focus {
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 .ltc-white.bold-link {
